@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 690px; /* Should be removed. Only for demonstration */
+    background:url(images/image-product-desktop.jpg);
+    background-repeat:no-repeat ;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .text p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    color: hsl(30, 38%, 62%);
+  }
+
+  .main h1{
+    font-family: 'Fraunces', serif;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    font-size: 50px;
+  }
+
+  .info p{
+    font-size: 24px;
+    color: hsl(30, 38%, 67%);
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+  }
+
+  .span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .span h1{
+    color: hsl(158, 36%, 37%);
+  }
+
+
+  .span h2{
+    padding-top: 40px;
+    margin-right: 450px;
+    color: hsl(30, 38%, 67%);
+
+  }
+
+
+  .button{
+    padding-top: 30px;
+  }
+  button{
+    border-radius: 4px;
+    width: 350px;
+    height: 40px;
+    background-color:hsl(158, 36%, 37%);
+    color: #fff;
+    cursor: grab;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  button:hover{
+    background-color:  hsl(212, 21%, 14%);
+  }
+
